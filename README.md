@@ -1,19 +1,57 @@
 
-# APICatalogo
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white) ![dotnet](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)
+# Toughts
 
-Essa foi minha primeira API desenvolvida seguindo as orientações do professor Macoratti no curso [Curso Web API ASP .NET Core Essencial (.NET 6).](http://https://www.udemy.com/course/curso-web-api-asp-net-core-essencial/ "Curso Web API ASP .NET Core Essencial (.NET 6)")
+Esse projeto é um sistema básico onde o usuário tem a possibilidade de criar pensamentos que ficam expostos na página Home para que outras pessoas vejam.
 
-O projeto consiste em criar uma API de catálogo que relacionado produtos e categorias de uma forma bem simples mas bastante completa.
+Esse projeto faz parte do curso [Node.js do Zero a Maestria](https://www.udemy.com/course/nodejs-do-zero-a-maestria-com-diversos-projetos). O desenvolvimento foi feito pelo professor e eu fui acompanhando e replicando o código manualmente, com exceção do CSS. Considero essa uma ótima maneira de aprender pois consegui adquirir muito conhecimento técnico sobre desenvolvimento web de forma geral, trabalhando muito com CRUD e alguns recursos extras como a autenticação de um usuário no sistema, além do relacionamento entre tabelas MySQL.
 
-Fui capaz de compreender os conceitos básicos sobre a criação de uma API em ASP.NET utilizando o Entity Framework e banco de dados MySQL.
+Pretendo melhorar esse projeto no futuro com alguns recursos extras como Likes e Comentários nos pensamentos, mas por enquanto darei prioridade em outras tarefas e projetos.
 
-Além disso, conheci o Swagger que facilitou muito no entendimento de como as rotas estavam funcionando.
+![Screenshot](screenshot.png)
 
-Considerações: Ainda faltaram algumas implementações como tratamento de erros, por exemplo. Fiz o tratamento de erro bem básico nas rotas GET com `try; catch;` apenas para entender o funcionamento.
+## 🚀 Começando
 
-![image](https://user-images.githubusercontent.com/63673408/163603236-a076cdaa-773f-43f2-a0a3-d434213d8ca6.png)
+Essas instruções permitirão que você obtenha uma cópia do projeto em operação na sua máquina local para fins de desenvolvimento e teste.
+
+### 📋 Pré-requisitos
+
+De que coisas você precisa para instalar o software e como instalá-lo?
+
+```
+Node v16.13.0
+MySQL 8.0.27
+MySQL Workbench (Opcional)
+```
+
+### 🔧 Instalação
+
+Passos:
+
+Criar banco de dados:
+
+```
+CREATE SCHEMA `toughts` ;
+```
+
+Instalar dependências necessárias para rodar o projeto:
+
+```
+npm install
+```
+
+Com as dependências instaladas e o banco criado, o Model se encarregará de criar as tabelas necessárias para o projeto.
+
+## ⚙️ Executando
+
+1 - Na pasta do projeto, execute:
+```
+node index.js
+```
+2 - Acesse: http://localhost:3000:
 
 ## ✒️ Autor
 
-* **[Leonardo Mazzeu](https://github.com/leomazzeu "Leonardo Mazzeu")**
+* **Leonardo Mazzeu** - *Único desenvolvedor* - [leomazzeu](https://github.com/leomazzeu)
+
+---
+By: [Léo Mazzeu](https://github.com/leomazzeu)  💙
